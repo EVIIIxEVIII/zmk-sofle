@@ -161,7 +161,7 @@ layers:
   - (
   - )
   - '{'
-  - {t: '}', h: toggle}
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
