@@ -64,6 +64,15 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        comboforcolon {
+            bindings = <&kp COLON>;
+            key-positions = <30 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
