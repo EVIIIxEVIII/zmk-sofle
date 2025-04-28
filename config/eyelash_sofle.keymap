@@ -104,11 +104,11 @@
 
         layer_2 {
             bindings = <
-&trans        &bt BT_SEL 0          &bt BT_SEL 1           &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4    &mmv MOVE_UP     &kp F6        &kp F7          &kp F8        &kp F9       &kp F10  &trans
-&out OUT_USB  &none                 &none                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &mmv MOVE_DOWN   &trans        &trans          &kp F11       &kp F12      &none    &kp PLUS
-&out OUT_BLE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans          &mmv MOVE_LEFT   &kp KP_MINUS  &kp UNDERSCORE  &kp KP_EQUAL  &kp KP_PLUS  &none    &none
-&trans        &none                 &trans                 &none             &trans             &trans          &mmv MOVE_RIGHT  &trans        &trans          &trans        &trans       &trans   &trans
-&trans        &trans                &trans                 &trans            &trans             &trans          &mkp LCLK        &trans        &trans          &trans        &trans       &trans
+&trans        &bt BT_SEL 0          &bt BT_SEL 1           &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7          &kp F8        &kp F9       &kp F10       &trans
+&out OUT_USB  &none                 &none                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &mmv MOVE_DOWN   &trans  &trans          &kp F11       &kp F12      &none         &kp PLUS
+&out OUT_BLE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans          &mmv MOVE_LEFT   &none   &kp UNDERSCORE  &kp KP_EQUAL  &kp KP_PLUS  &kp KP_MINUS  &none
+&trans        &none                 &trans                 &none             &trans             &trans          &mmv MOVE_RIGHT  &trans  &trans          &trans        &trans       &trans        &trans
+&trans        &trans                &trans                 &trans            &trans             &trans          &mkp LCLK        &trans  &trans          &trans        &trans       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
