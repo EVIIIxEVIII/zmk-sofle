@@ -61,8 +61,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   layer1:
