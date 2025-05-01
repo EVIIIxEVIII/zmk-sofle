@@ -281,3 +281,5 @@ combos:
   k: KP PLUS
 - p: [15, 16]
   k: KP EQUAL
+- p: [30, 34]
+  k: ':'
